@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidator" Version="2.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backoffice Context\" />
+    <Folder Include="Backoffice Context\Entities\" />
+    <Folder Include="SharedContext\" />
+    <Folder Include="StoreContext\ValueObjects\" />
+    <Folder Include="StoreContext\Handlers\" />
+    <Folder Include="StoreContext\Commands\CustomerCommands\Output\" />
+    <Folder Include="StoreContext\Repositories\" />
+    <Folder Include="StoreContext\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaltaStore.Shared\BaltaStore.Shared.csproj" />
+  </ItemGroup>
+</Project>
