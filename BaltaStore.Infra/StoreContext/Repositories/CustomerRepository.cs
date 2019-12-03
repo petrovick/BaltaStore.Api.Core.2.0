@@ -80,5 +80,5 @@ namespace BaltaStore.Infra.StoreContext.Repositories
             }
         }
 
-    }
+  }
 }
